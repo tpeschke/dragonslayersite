@@ -1,0 +1,102 @@
+.aboutShell p {
+    text-indent: 5%;
+}
+
+.aboutShell {
+    min-height: 93.7vh;
+}
+
+.innerShell {
+  padding-top: 65px;
+  min-height: 86vh;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+}
+
+.box {
+  height: 500px;
+  width: 35%;
+  background: whitesmoke;
+  margin: 50px auto;
+  box-shadow: 4px 4px 5px #222;
+  padding: 50px;
+}
+
+.box h2 {
+    color: #977e2d
+}
+
+.box a {
+    font-weight: 700;
+    color: #977e2d;
+}
+
+.box a:hover {
+    font-weight: 700;
+    color: #964000;
+}
+
+.quote {
+    font-style: italic;
+    color: #977e2d;
+}
+
+.colorStrikeAboutTop {
+  background: #977e2d;
+  height: 1600px;
+  width: 250px;
+  position: absolute;
+  transform: rotate(45deg);
+  top: -500px;
+  left: 50px;
+  z-index: -2;
+}
+
+.colorStrikeAboutMiddle {
+  background: #806b27;
+  height: 1600px;
+  width: 250px;
+  position: absolute;
+  transform: rotate(45deg);
+  top: -500px;
+  left: 275px;
+  z-index: -2;
+}
+
+.colorStrikeAboutBottom {
+  background: #977e2d;
+  height: 1600px;
+  width: 100px;
+  position: absolute;
+  transform: rotate(45deg);
+  top: -500px;
+  left: 455px;
+  z-index: -2;
+}
+
+@media (max-width: 800px) {
+    .innerShell {
+        flex-direction: column;
+      }
+
+      .box {
+          width: 75%;
+          margin: 5% auto;
+      }
+
+  }
+
+  @media (max-width: 600px) { 
+    .box {
+        width: 100%;
+        margin: 15px 0;
+        padding: 0;
+    }
+
+    .aboutShell p {
+        text-indent: 5%;
+        margin: 15px
+    }
+  }
+  

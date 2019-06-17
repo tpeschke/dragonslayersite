@@ -11,8 +11,8 @@ h1 {
 }
 
 .frontPage {
-  background: lightcoral;
-  background-image: url("../assets/bonfireBackground.png");
+  background: black;
+  background-image: url("../../assets/bonfireBackground.png");
   background-repeat: no-repeat;
   background-size: 100%;
   height: 100vh;
@@ -46,9 +46,6 @@ h1 {
   align-items: center;
   justify-content: space-around;
   position: relative;
-  -webkit-box-shadow: 10px 10px 14px 0px rgba(0, 0, 0, 0.59);
-  -moz-box-shadow: 10px 10px 14px 0px rgba(0, 0, 0, 0.59);
-  box-shadow: 10px 10px 14px 0px rgba(0, 0, 0, 0.59);
 }
 
 button {
@@ -78,18 +75,18 @@ button {
   -moz-box-shadow: 5px 5px 7px 0px rgba(0, 0, 0, 0.59);
   box-shadow: 5px 5px 7px 0px rgba(0, 0, 0, 0.59);
   background: #4a6496;
-  border: 2px solid #4a6496;
   color: whitesmoke;
 }
 
 .discordButton:hover {
-  background: lightgray;
-  border: 2px solid rgba(0, 0, 0, 0.137);
-  color: #4a6496;
+  background: #222;
+  color: whitesmoke;
 }
 
 .discordButton a:hover {
-  color: #4a6496;
+  color: whitesmoke;
+  height: 500px;
+  width: 100%;
 }
 
 .discordSquare {
@@ -105,15 +102,31 @@ button {
   box-shadow: 4px 4px 5px #222;
 }
 
+.discordShell {
+  overflow: hidden;
+  position: relative;
+}
+
+.colorStrike {
+  background: #4a6496;
+  height: 1500px;
+  width: 500px;
+  position: absolute;
+  transform: rotate(-45deg);
+  top: -500px;
+  right: 150px;
+  z-index: -2;
+}
+
 .discordIcon {
   position: absolute;
-  background-image: url("../assets/discordIcon.jpg");
+  background-image: url("../../assets/discordIcon.jpg");
   background-repeat: no-repeat;
   background-size: 100%;
-  top: -45px;
-  right: -48px;
-  height: 120px;
-  width: 120px;
+  top: -30px;
+  right: -37px;
+  height: 75px;
+  width: 75px;
   z-index: 0;
   transform: rotate(25deg);
 }
@@ -148,7 +161,7 @@ button {
 }
 
 .discordImage {
-  background-image: url("../assets/cossacks.jpg");
+  background-image: url("../../assets/cossacks.jpg");
   background-repeat: no-repeat;
   background-size: 100%;
   height: 100%;
@@ -178,7 +191,7 @@ button {
     color: whitesmoke;
     width: 30%;
     background: linear-gradient(to right, #C3B091, rgba(195, 176, 145, 0.5), rgba(195, 176, 145, 0));
-    padding: 0px 50px;
+    padding: 50px;
     height: 100%;
     justify-content: flex-start
   }
@@ -193,5 +206,9 @@ button {
     left: 35px;
     transform: rotate(0deg);
     z-index: 1;
+  }
+
+  .colorStrike {
+    display: none;
   }
 }

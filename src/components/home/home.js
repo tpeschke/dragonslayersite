@@ -12,7 +12,8 @@ class Home extends Component {
                         <button className="bonfireButton">Learn More About the Bonfire RPG</button>
                     </div>
                 </div>
-                <div>
+                <div className="discordShell">
+                    <div className="colorStrike"></div>
                     <div className="discordSquare">
                         <div className="discordIcon"></div>
                         <div className="imageBox">
