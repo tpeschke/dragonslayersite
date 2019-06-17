@@ -1,0 +1,47 @@
+.nav {
+    background: whitesmoke;
+    width: 100%;
+    position: fixed;
+    z-index: 2;
+    border-bottom: 5px solid #964000;
+    box-shadow: 4px 4px 5px #222;
+}
+
+.subNav {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.subNav div{
+    display: flex;
+    width: 35%;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer {
+    background: whitesmoke;
+    width: 100%;
+    border-top: 3px solid #964000;
+}
+
+.footer div {
+    background: whitesmoke;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.footer div p:hover{
+    color: #964000;
+}
+
+@media (max-width: 600px) {
+    .footer div {
+        width: 100%;
+    }
+}

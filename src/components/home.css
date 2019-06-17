@@ -1,0 +1,197 @@
+@import url("https://fonts.googleapis.com/css?family=MedievalSharp&display=swap");
+
+h1 {
+  color: whitesmoke;
+  font-family: "MedievalSharp";
+  font-size: 35px;
+}
+
+.shell {
+  overflow: hidden;
+}
+
+.frontPage {
+  background: lightcoral;
+  background-image: url("../assets/bonfireBackground.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 100vh;
+  width: 2000px;
+  position: relative;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  -webkit-box-shadow: 10px 10px 14px 0px rgba(0, 0, 0, 0.59);
+  -moz-box-shadow: 10px 10px 14px 0px rgba(0, 0, 0, 0.59);
+  box-shadow: 10px 10px 14px 0px rgba(0, 0, 0, 0.59);
+}
+
+.tint {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: -1;
+}
+
+.titleCard {
+  border: 5px solid whitesmoke;
+  height: 100px;
+  min-width: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: relative;
+  -webkit-box-shadow: 10px 10px 14px 0px rgba(0, 0, 0, 0.59);
+  -moz-box-shadow: 10px 10px 14px 0px rgba(0, 0, 0, 0.59);
+  box-shadow: 10px 10px 14px 0px rgba(0, 0, 0, 0.59);
+}
+
+button {
+  position: absolute;
+  padding: 7px 25px;
+  bottom: -50px;
+  background: whitesmoke;
+  font-size: 20px;
+  border: none;
+  -webkit-box-shadow: 10px 10px 14px 0px rgba(0, 0, 0, 0.59);
+  -moz-box-shadow: 10px 10px 14px 0px rgba(0, 0, 0, 0.59);
+  box-shadow: 10px 10px 14px 0px rgba(0, 0, 0, 0.59);
+  transition: 0.6s;
+}
+
+.bonfireButton:hover {
+  background: #964000;
+  color: whitesmoke;
+}
+
+.discordButton {
+  position: inherit;
+  padding: 10px;
+  font-size: 20px;
+  border: none;
+  -webkit-box-shadow: 5px 5px 7px 0px rgba(0, 0, 0, 0.59);
+  -moz-box-shadow: 5px 5px 7px 0px rgba(0, 0, 0, 0.59);
+  box-shadow: 5px 5px 7px 0px rgba(0, 0, 0, 0.59);
+  background: #4a6496;
+  border: 2px solid #4a6496;
+  color: whitesmoke;
+}
+
+.discordButton:hover {
+  background: lightgray;
+  border: 2px solid rgba(0, 0, 0, 0.137);
+  color: #4a6496;
+}
+
+.discordButton a:hover {
+  color: #4a6496;
+}
+
+.discordSquare {
+  height: 414px;
+  width: 75%;
+  min-width: 650px;
+  max-width: 950px;
+  margin: 75px auto;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  background: whitesmoke;
+  box-shadow: 4px 4px 5px #222;
+}
+
+.discordIcon {
+  position: absolute;
+  background-image: url("../assets/discordIcon.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  top: -45px;
+  right: -48px;
+  height: 120px;
+  width: 120px;
+  z-index: 0;
+  transform: rotate(25deg);
+}
+
+.textBox {
+  width: 20%;
+  padding: 50px;
+  height: 160px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.imageBox {
+  height: 414px;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.imageOverlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0; 
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(to left, whitesmoke,rgba(195, 176, 145, 0),rgba(195, 176, 145, 0),rgba(195, 176, 145, 0)); 
+  z-index: 1;
+}
+
+.discordImage {
+  background-image: url("../assets/cossacks.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 100%;
+  width: 750px;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
+@media (max-width: 600px) {
+  .discordSquare {
+    margin: 10px 0 0 0;
+    display: inherit;
+    position: relative;
+  }
+
+  .imageBox {
+    width: 100%;
+  }
+
+  .imageOverlay { 
+    display: none;
+  }
+
+  .textBox {
+    position: absolute;
+    top: 0;
+    color: whitesmoke;
+    width: 30%;
+    background: linear-gradient(to right, #C3B091, rgba(195, 176, 145, 0.5), rgba(195, 176, 145, 0));
+    padding: 0px 50px;
+    height: 100%;
+    justify-content: flex-start
+  }
+
+  h2 {
+    font: 45px;
+  }
+
+  .discordIcon {
+    position: absolute;
+    top: 200px;
+    left: 35px;
+    transform: rotate(0deg);
+    z-index: 1;
+  }
+}
