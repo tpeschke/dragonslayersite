@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import './careers.css'
-import { Link, withRouter } from 'react-router-dom'
 
 class Careers extends Component {
     render() {
@@ -36,4 +35,4 @@ class Careers extends Component {
     }
 }
 
-export default withRouter(Careers)
+export default Careers

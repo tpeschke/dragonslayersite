@@ -12,11 +12,12 @@
 .subNav {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   width: 80%;
   margin: 0 auto;
 }
 
-.subNav div {
+.expandedNav {
   display: flex;
   width: 35%;
   justify-content: space-between;
@@ -44,8 +45,101 @@
   color: #964000;
 }
 
-@media (max-width: 600px) {
+.hamNav {
+  display: none;
+  height: 36px;
+  width: 36px;
+  position: relative;
+  transition: .6s;
+}
+
+.leftArrow {
+  height: 25px;
+  width: 10px;
+  background: #964000;
+  transform: rotate(45deg);
+  position: absolute;
+  left: 8px;
+  top: 5px;
+}
+
+.rightArrow {
+  height: 25px;
+  width: 10px;
+  background: #964000;
+  transform: rotate(-45deg);
+  position: absolute;
+  right: 8px;
+  top: 5px;
+}
+
+.rotated {
+  transform: rotate(180deg)
+}
+
+.dropdownNav {
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  background: whitesmoke;
+  top: 65px;
+  right: 0;
+  padding: 0 25px;
+  height: 0px;
+  overflow: hidden;
+  transition: .6s;
+  display: none;
+}
+
+.open {
+  height: 165px;
+  border-bottom: 5px solid #964000;
+  padding: 25px;
+}
+
+.dropdownNav p {
+  margin: 0;
+}
+
+.dropdownNav a {
+  margin: 15px 0;
+  font-size: 25px;
+}
+
+.navOverlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.48);
+  z-index: 1;
+  transition: .6s
+}
+
+.openOver {
+  height: 100%;
+}
+
+@media (max-width: 825px) {
   .footer div {
     width: 100%;
+  }
+
+  .expandedNav {
+    display: none;
+  }
+
+  .hamNav {
+    display: flex;
+  }
+
+  .dropdownNav {
+    display: flex;
+  }
+
+  .navOverlay { 
+    display: inherit
   }
 }
