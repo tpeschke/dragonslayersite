@@ -24,7 +24,7 @@ class Nav extends Component {
             <div>
                 <div className="nav">
                     <div className="subNav">
-                        <Link to="/" onClick={_=>this.toggleNav(true)}><h4>DragonSlayer Games</h4></Link>
+                        <Link to="/" onClick={_=>this.toggleNav(true)}><h4>Dragon Slayer RPGs</h4></Link>
                         <div className="expandedNav">
                             <a>Bonfire RPG</a>
                             <h3>|</h3>

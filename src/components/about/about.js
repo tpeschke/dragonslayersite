@@ -14,7 +14,7 @@ class About extends Component {
                         <h2>About</h2>
                         <p className="quote">“The books I write because I want to read them, the games because I want to play them, and stories I tell because I find them exciting personally.”</p>
                         <p className="quote">- Gary Gygax</p>
-                        <p>DragonSlayer Games was created by two brothers that love games and wanted to share them with others.</p>
+                        <p>Dragon Slayer RPGs was created by two brothers that love games and wanted to share them with others.</p>
                         <p>Our aim is to marry new school mechanics with an old school feel to bring back the thrill of discovery, adventure, and problem solving.</p>
                         <p>We truly love our work and love sharing it with others.</p>
                     </div>
