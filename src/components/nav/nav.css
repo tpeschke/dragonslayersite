@@ -22,10 +22,12 @@
   justify-content: space-between;
   align-items: center;
 }
+
 .footer {
   background: whitesmoke;
   width: 100%;
   border-top: 3px solid #964000;
+  z-index: 1;
 }
 
 .footer div {

@@ -7,9 +7,9 @@ class Footer extends Component {
         return (
             <div className="footer">
                 <div>
-                    <p>Contact Us</p>
+                    <Link to="/about">Contact Us</Link>
                     <h3>|</h3>
-                    <Link to="/about">Careers & Freelance Work</Link>
+                    <Link to="/careers">Careers & Freelance Work</Link>
                 </div>
             </div>
         )

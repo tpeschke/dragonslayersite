@@ -8,7 +8,7 @@
 
 .innerShell {
   padding-top: 65px;
-  min-height: 86vh;
+  min-height: 86.4vh;
   display: flex;
   overflow: hidden;
   position: relative;
@@ -24,26 +24,26 @@
 }
 
 .box h2 {
-    color: #977e2d
+    color: #964000
 }
 
 .box a {
     font-weight: 700;
-    color: #977e2d;
+    color: #964000;
 }
 
 .box a:hover {
     font-weight: 700;
-    color: #964000;
+    color: black;
 }
 
 .quote {
     font-style: italic;
-    color: #977e2d;
+    color: #964000;
 }
 
 .colorStrikeAboutTop {
-  background: #977e2d;
+  background: #964000;
   height: 1600px;
   width: 250px;
   position: absolute;
@@ -54,7 +54,7 @@
 }
 
 .colorStrikeAboutMiddle {
-  background: #806b27;
+  background: #7e3600;
   height: 1600px;
   width: 250px;
   position: absolute;
@@ -65,7 +65,7 @@
 }
 
 .colorStrikeAboutBottom {
-  background: #977e2d;
+  background: #5f2900;
   height: 1600px;
   width: 100px;
   position: absolute;
