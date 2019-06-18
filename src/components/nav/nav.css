@@ -51,6 +51,7 @@
   width: 36px;
   position: relative;
   transition: .6s;
+  transform: rotate(180deg);
 }
 
 .leftArrow {
@@ -74,7 +75,7 @@
 }
 
 .rotated {
-  transform: rotate(180deg)
+  transform: rotate(0deg)
 }
 
 .dropdownNav {
