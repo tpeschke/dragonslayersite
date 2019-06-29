@@ -61,7 +61,7 @@ button {
   transition: 0.6s;
 }
 
-.bonfireButton:hover {
+.bonfireButton a:hover {
   background: #964000;
   color: whitesmoke;
 }

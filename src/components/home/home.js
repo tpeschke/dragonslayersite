@@ -9,7 +9,7 @@ class Home extends Component {
                     <div className="tint"></div>
                     <div className="titleCard">
                         <h1>A Tale Yet Half Told</h1>
-                        <button className="bonfireButton">Learn More About the Bonfire RPG</button>
+                            <button className="bonfireButton"><a href="http://bonfire.dragon-slayer.net">Learn More About the Bonfire RPG</a></button>
                     </div>
                 </div>
                 <div className="discordShell">
