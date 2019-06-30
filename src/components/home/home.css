@@ -175,6 +175,11 @@ button {
 }
 
 @media (max-width: 600px) {
+  .frontPage {
+    height: 90vh;
+    width: 1000px;
+  }
+
   .discordSquare {
     margin: 10px 0 0 0;
     display: inherit;
