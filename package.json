@@ -32,6 +32,6 @@
       "last 1 safari version"
     ]
   },
-  "main": "server/server.js",
+  "main": "server/mainSite.js",
   "proxy": "http://localhost:3001"
 }
