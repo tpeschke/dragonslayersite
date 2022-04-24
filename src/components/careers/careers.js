@@ -26,7 +26,7 @@ class Careers extends Component {
                             </div>
                         </div>
                         <div className="careersEmail">
-                            <p>support@dragon-slayer.net</p>
+                            <p>dragonslayerttrpgs@gmail.com</p>
                         </div>
                     </div>
                 </div>
