@@ -1,3 +1,8 @@
+@font-face {
+	font-family: 'ace';
+	src: url('./assets/AceSerif.ttf') format("truetype");
+}  
+
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed, 
@@ -36,7 +41,9 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
+a {
+	font-family: "ace";
+}
 a:link {
 	text-decoration: inherit;
 	color: inherit;
@@ -53,6 +60,9 @@ a:hover {
 	color: #964000;
 }
 
+h2 {
+	font-family: "ace";
+}
 h2 p {
   font-family: 'Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif; ';
 }

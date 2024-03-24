@@ -1,11 +1,13 @@
 import React, { Component } from 'react'
 import './home.css'
+import background from '../../assets/bonfireBackground.png'
 
 class Home extends Component {
     render() {
         return (
             <div className="shell">
                 <div className="frontPage">
+                    <img className="background" src={background}/>
                     <div className="tint"></div>
                     <div className="titleCard">
                         <h1>A Tale Yet Half Told</h1>

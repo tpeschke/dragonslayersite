@@ -15,7 +15,7 @@ class Careers extends Component {
                         <div className="careersTextBox">
                             <div>
                                 <h2>Freelance Work</h2>
-                                <p>Dragon Slayer RPGs believes in the creator and so offers highly competive pricing for any freelance work done.</p>
+                                <p>Stone Fish Games believes in the creator and so offers highly competive pricing for any freelance work done.</p>
                                 <p>Currently we're looking mainly for modules and adventures but we're happy to look at campaign settings, supplemental materials, or new games.</p>
                                 <p>We're not currently looking for just pitches: please be ready to submit a sample of your work upon request.</p>
                             </div>

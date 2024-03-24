@@ -9,7 +9,7 @@ class Footer extends Component {
                 <div>
                     <Link to="/about">Contact Us</Link>
                     <h3>|</h3>
-                    <Link to="/careers">Careers & Freelance Work</Link>
+                    <Link to="/careers">Careers / Freelance Work</Link>
                 </div>
             </div>
         )

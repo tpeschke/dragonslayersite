@@ -29,7 +29,8 @@
 
 .box a {
     font-weight: 700;
-    color: #964000;
+    color: #964000;    
+    font-size: 15px;
 }
 
 .box a:hover {
